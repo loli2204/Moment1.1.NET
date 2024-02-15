@@ -1,0 +1,85 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Layout styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styla headern */
+header {
+  background-color: #003366; /* Bakgrundsfärg */
+  color: #fff; /* Textfärg */
+  padding: 5px; /* Inre utfyllnad */
+  display: flex; /* Flexbox för att justera element */
+  justify-content: space-between; /* Justera element jämnt mellanrum */
+  align-items: center; /* Centrera element vertikalt */
+}
+
+/* Styla logotypbilden */
+.logo img {
+  width: 150px; /* Bredden på logotypbilden */
+  height: auto; /* Automatisk höjdjustering för att bibehålla proportioner */
+}
+/* datum i headern */
+#currentDate {
+  margin-right: 40px; 
+}
+
+/* Main */
+.main-container {
+  display: flex;
+  width: 100%;
+  padding: 4%;
+}
+
+/* Navigation */
+.sidebar {
+  width: 25%; 
+  background-color: #CBE6EF; 
+  padding: 20px;
+  border: 3px solid #003366;
+  margin-right: 2%;
+}
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+.sidebar nav ul li a {
+  display: block;
+  padding: 10px 20px; 
+  text-align: center;
+  font-size: 18px; 
+  border: 3px solid #003366;
+  color: #003366;
+  text-decoration: none;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+.sidebar nav ul li a:hover {
+  background-color: #003366;
+  color: #F0F2F3;
+}
+
+/* Innehållet */
+.content {
+  width: 68%; 
+  padding: 20px;
+  background-color: #F0F2F3;
+  color:#71B1C5;
+  border: 3px solid #003366;
+  margin-left: 2%;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+}
